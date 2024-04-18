@@ -18,6 +18,8 @@ install_github("bakenzua/tubler")
 
 ## Example
 
+![image](https://github.com/bakenzua/tubler/assets/17120936/8824e8e6-5137-4feb-bbc6-03fa0d728597)
+
 ``` r
 library(tubler)
 
