@@ -17,3 +17,6 @@ Imports:
     tidygraph
 URL: https://github.com/bakenzua/tubler
 BugReports: https://github.com/bakenzua/tubler/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

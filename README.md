@@ -18,9 +18,21 @@ install_github("bakenzua/tubler")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ``` r
 library(tubler)
-## basic example code
+
+# answer is "Kingsbury"
+tt <- guess_tuble("Oxford Circus", 5)
+tt
+#  [1] "Barbican"          "Bayswater"         "Belsize Park"     
+#  [4] "Blackfriars"       "Elephant & Castle" "Finsbury Park"    
+#  [7] "Gloucester Road"   "Holloway Road"     "Kilburn"          
+# [10] "Kingsbury"         "Liverpool Street"  "London Bridge"    
+# [13] "Moorgate"          "Neasden"           "Notting Hill Gate"
+# [16] "Old Street"        "Oval"              "Preston Road"     
+# [19] "Royal Oak"         "Stockwell"         "Tufnell Park"     
+# [22] "Warwick Avenue"   
+
+guess_tuble("Neasden", 2, tt)
+# [1] "Kingsbury"    "Preston Road"
 ```

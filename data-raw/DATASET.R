@@ -23,3 +23,4 @@ usethis::use_data(connections_df, overwrite = TRUE)
 lu_graph <- tidygraph::tbl_graph(nodes = data.frame(names = stations_df$name), edges = connections_df, directed = FALSE)
 
 usethis::use_data(lu_graph, overwrite = TRUE)
+§
