@@ -15,3 +15,5 @@ LazyData: true
 Imports: 
     dplyr,
     tidygraph
+URL: https://github.com/bakenzua/tubler
+BugReports: https://github.com/bakenzua/tubler/issues
